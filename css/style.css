@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:  hsl(217, 54%, 11%);
+}
+
+body{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-width:100vw;
+    min-height:100vh;
+    display:grid;
+    place-items:center;
+        
+}
+.main{
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 13px;
+    height: 600px;  
+    width: 366px;  
+    position: relative;
+}
+.top{
+    border-radius: 10px;
+    background-color:  hsl(216, 50%, 16%);
+    position: absolute;
+    height: 318px;
+    top: 24px;
+    left: 24px;
+    right: 25px;
+    
+    
+}
+/* This is for the image hover over effect */
+.second{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background-color: rgb(69, 220, 220);
+    border-radius: 10px;
+    opacity: 0;
+    padding:135px;
+}
+
+.second:hover{
+    opacity: 70%;
+    cursor: pointer;
+    
+}
+
+
+
+
+.head{
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    position: absolute;
+    top:364px ;
+    left: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+.head:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.content{
+    background-color: hsl(216, 50%, 16%);
+    color:hsl(215, 51%, 70%);
+    position: absolute;
+    top:403px ;
+    left: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+
+}
+.price{
+    background-color:  hsl(216, 50%, 16%);
+    color: hsl(178, 100%, 50%);
+    position: absolute;
+    top: 470px;
+    left: 24px;
+}
+.img{
+    background-color:  hsl(216, 50%, 16%);
+
+}
+.num{
+    background-color:  hsl(216, 50%, 16%);
+    font-family: 'Outfit',sans-serif;
+    font-size: small;
+    font-weight: 400;
+    position: absolute;
+    top: 1px;
+    left: 16px;
+    font-weight: 600;
+
+}
+.side{
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+    top: 470px;
+    left: 245px;
+}
+.clock {
+    background-color: hsl(216, 50%, 16%);
+}
+.day{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    top: -0.9px;
+    font-family: 'Outfit', sans-serif;
+}
+.line{
+    border: 1px solid hsl(215, 32%, 27%) ;
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+     top: 514px;
+     left: 24px;
+     width: 316px;
+     height: 0px;
+}
+.ava{
+    position: absolute;
+    top: 537px;
+    left: 24px;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+}
+
+
+.avatar{
+    height: 35px;
+    border-radius: 50% ;
+    border: 2px solid white; 
+    padding: 0px;
+    background-color: hsl(216, 50%, 16%);
+
+     
+}
+.low{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    position: absolute; 
+     top: 10px;
+     left: 57px;
+     font-family: 'Outfit',sans-serif;
+}
+.name{
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+}
+.name:hover{
+    color: aqua;
+    cursor: pointer;
+}
+@media  screen and (min-width:0px) and  (max-width:375px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    
+    
+}
