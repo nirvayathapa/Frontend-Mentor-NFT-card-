@@ -38,7 +38,7 @@ body{
     position: absolute;
     top: 24px;
     left: 24px;
-    background-color: rgb(69, 220, 220);
+    background-color: rgba(69, 220, 220,0.8);
     border-radius: 10px;
     opacity: 0;
     padding:135px;
