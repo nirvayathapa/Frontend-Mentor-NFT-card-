@@ -45,7 +45,7 @@ body{
 }
 
 .second:hover{
-    opacity: 70%;
+    opacity: 100%;
     cursor: pointer;
     
 }
